@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'GRDBSnapshotTesting/Sources/**/*.swift'
   
-  s.dependency 'GRDB.swift', '~> 4.1'
+  s.dependency 'GRDB.swift', '~> 5.0-beta'
   s.dependency 'SnapshotTesting', '~> 1.7'
 
   s.frameworks = "XCTest"
