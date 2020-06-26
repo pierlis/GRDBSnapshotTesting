@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "GRDBSnapshotTesting",
     platforms: [
-      .iOS(.v10),
+      .iOS(.v11),
       .macOS(.v10_10),
       .tvOS(.v10)
     ],
@@ -17,7 +17,7 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "GRDB", url: "https://github.com/groue/GRDB.swift.git", .upToNextMajor(from: "5.0.0-beta.2")),
-        .package(name: "SnapshotTesting", url: "https://github.com/pointfreeco/swift-snapshot-testing.git", .upToNextMajor(from: "1.7.0")),
+        .package(name: "SnapshotTesting", url: "https://github.com/pointfreeco/swift-snapshot-testing.git", .upToNextMajor(from: "1.8.1")),
     ],
     targets: [
         .target(

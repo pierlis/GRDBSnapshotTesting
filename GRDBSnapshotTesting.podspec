@@ -28,12 +28,12 @@ Pod::Spec.new do |s|
 
   s.swift_version = "5.0"
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'GRDBSnapshotTesting/Sources/**/*.swift'
   
   s.dependency 'GRDB.swift', '~> 5.0-beta'
-  s.dependency 'SnapshotTesting', '~> 1.7'
+  s.dependency 'SnapshotTesting', '~> 1.8'
 
   s.frameworks = "XCTest"
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
